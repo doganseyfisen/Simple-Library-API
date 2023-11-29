@@ -1,6 +1,6 @@
 # Simple-Library-API
 
-This project is created to build a simple library API. Used Django Rest Framework. The project aims to provide a simple API.
+This project is created to build a simple library API. Built with Django Rest Framework. The project aims to provide a simple API and basic understanding of an API.
 
 ## Features
 
