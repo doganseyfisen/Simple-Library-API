@@ -9,7 +9,7 @@ class BookTests(TestCase):
             title = "Ordinary Title",
             subtitle = "A Boring Subtitle",
             author = "Who Dis",
-            isbn = "11223344556",
+            isbn = "1122334455667",
         )
 
     # Post
@@ -17,7 +17,7 @@ class BookTests(TestCase):
         self.assertEqual(self.book.title, "Ordinary Title")
         self.assertEqual(self.book.subtitle, "A Boring Subtitle")
         self.assertEqual(self.book.author, "Who Dis")
-        self.assertEqual(self.book.isbn, "11223344556")
+        self.assertEqual(self.book.isbn, "1122334455667")
 
     # Get
     def test_book_listview(self):
